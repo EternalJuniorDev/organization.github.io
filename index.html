@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700,800&display=swap&subset=cyrillic"
         rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
 </head>
 
 <body>
@@ -42,16 +43,18 @@
                     </div>
                     <div class="title-block__right-item">
                         <div class="title-block__right-item__video_wrapper">
-                            <button class="play-btn">
+                            <!-- <button class="play-btn">
                                 <img src="./img/video.png" alt="video" />
-                            </button>
-                            <video class="video" src="#"></video>
+                            </button> -->
+                            <iframe class="video" width="420" height="315"
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                            </iframe>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="why-we">
+        <section class=" why-we">
             <div class="container">
                 <div class="why-we__wrapper">
                     <div class="why-we__left-item">
@@ -107,6 +110,126 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="feature-product">
+            <div class="container">
+                <h3 class="feature-product__title">
+                    feature product
+                </h3>
+                <div class="feature-product__description">
+                    Lorem ipsum dolor sit amet, consectetur adipis cing elit,sed do eiusmod tempor incididunt ut labore
+                    et.
+                </div>
+                <div class="feature-product__linear"></div>
+
+                <ul class="feature-product__tabs-wrapper" id="feature-product">
+                    <li class="feature-product__tab active"><a>all</a> </li>
+                    <li class="feature-product__tab"><a>print template</a> </li>
+                    <li class="feature-product__tab"><a>web template</a> </li>
+                    <li class="feature-product__tab"><a>user interface</a> </li>
+                    <li class="feature-product__tab"><a>mock-up</a></li>
+                </ul>
+                <div class="tabs-content">
+                    <div class="feature-product__item-wrapper active" data-index="0">
+                        <div class="feature-product__item"></div>
+                        <div class="feature-product__item"></div>
+                        <div class="feature-product__item"></div>
+                        <div class="feature-product__item"></div>
+                        <div class="feature-product__item"></div>
+                        <div class="feature-product__item"></div>
+                        <div class="feature-product__item"></div>
+                        <div class="feature-product__item"></div>
+                    </div>
+                    <div class="feature-product__item-wrapper" data-index="1">
+                        <div class="feature-product__item item_1"></div>
+                        <div class="feature-product__item item_1"></div>
+                        <div class="feature-product__item item_1"></div>
+                        <div class="feature-product__item item_1"></div>
+                        <div class="feature-product__item item_1"></div>
+                        <div class="feature-product__item item_1"></div>
+                        <div class="feature-product__item item_1"></div>
+                        <div class="feature-product__item item_1"></div>
+                    </div>
+                    <div class="feature-product__item-wrapper" data-index="2">
+                        <div class="feature-product__item item_2"></div>
+                        <div class="feature-product__item item_2"></div>
+                        <div class="feature-product__item item_2"></div>
+                        <div class="feature-product__item item_2"></div>
+                        <div class="feature-product__item item_2"></div>
+                        <div class="feature-product__item item_2"></div>
+                        <div class="feature-product__item item_2"></div>
+                        <div class="feature-product__item item_2"></div>
+                    </div>
+                    <div class="feature-product__item-wrapper" data-index="3">
+                        <div class="feature-product__item item_3"></div>
+                        <div class="feature-product__item item_3"></div>
+                        <div class="feature-product__item item_3"></div>
+                        <div class="feature-product__item item_3"></div>
+                        <div class="feature-product__item item_3"></div>
+                        <div class="feature-product__item item_3"></div>
+                        <div class="feature-product__item item_3"></div>
+                        <div class="feature-product__item item_3"></div>
+                    </div>
+                    <div class="feature-product__item-wrapper" data-index="4">
+                        <div class="feature-product__item item_4"></div>
+                        <div class="feature-product__item item_4"></div>
+                        <div class="feature-product__item item_4"></div>
+                        <div class="feature-product__item item_4"></div>
+                        <div class="feature-product__item item_4"></div>
+                        <div class="feature-product__item item_4"></div>
+                        <div class="feature-product__item item_4"></div>
+                        <div class="feature-product__item item_4"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="our-team">
+            <div class="container">
+                <h3 class="our-team__title">Meet our team</h3>
+                <div class="our-team__description">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed dooing
+                    eiusmod tempor incididut labore Ui / Ux , print template.</div>
+                <div class="our-team__linear"></div>
+                <div class="our-team__wrapper">
+                    <div class="out-team__first-item"></div>
+                    <div class="our-team_right-item">
+                        <h4 class="our-team__item-title">mark waugh</h4>
+                        <div class="our-team__item-description">Lorem ipsum dolor sit amet, consectetur adipis cing
+                            elit,
+                            sed dooing eiusmod tempor incididut labore Ui / Ux , print template.</div>
+                        <div class="our-team__item-contact__wrapper">
+                            <a href="" class="our-team-item-contact__item">Facebook</a>
+                            <a href="" class="our-team-item-contact__item">Dribble</a>
+                            <a href="" class="our-team-item-contact__item">Behance</a>
+                            <a href="" class="our-team-item-contact__item">Twitter</a>
+                        </div>
+                        <div class="our-team__photo-wrapper">
+                            <div class="our-team__photo-item">
+                                <div class="photo-item__name">sokina jue</div>
+                            </div>
+                            <div class="our-team__photo-item">
+                                <div class="photo-item__name">sokina jue</div>
+                            </div>
+                            <div class="our-team__photo-item">
+                                <div class="photo-item__name">sokina jue</div>
+                            </div>
+                            <div class="our-team__photo-item">
+                                <div class="photo-item__name">sokina jue</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="subscribe">
+            <div class="container">
+                <h2 class="subscribe__title">Design tips, tricks, and freebies. Delivered weekly.</h2>
+                <div class="subscribe__description">Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do
+                    eiusmod.</div>
+                <form class="subscribe__form" name="subscribe" action="#" method="get">
+                    <input placeholder="Email Address..." type="email" name="email" id="email" required>
+                    <input class="btn btn-bg-red" type="submit" value="Subscribe">
+                </form>
             </div>
         </section>
     </main>
