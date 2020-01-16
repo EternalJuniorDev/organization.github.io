@@ -23,6 +23,10 @@ document.addEventListener('DOMContentLoaded', () => {
         video.src = "";
     }
 
+    else {
+        video.src = "https://www.youtube.com/embed/tgbNymZ7vqY";
+    }
+
     for (let el of tabLinks) {
         el.addEventListener("click", e => {
             e.preventDefault();
