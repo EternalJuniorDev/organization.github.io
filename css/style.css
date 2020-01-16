@@ -222,17 +222,6 @@ title-block__right-item {
   }
 }
 
-@media (max-width: 900px) {
-  .title-block__right-item__video_wrapper {
-    display: none;
-  }
-}
-
-@media (max-width: 678px) {
-  .title-block__right-item__video_wrapper {
-    display: none;
-  }
-}
 
 .play-btn {
   background: none;

@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const tabLinks = document.querySelectorAll(".feature-product__tab a");
     const tabPanels = document.querySelectorAll(".feature-product__item-wrapper");
+    const video = document.getElementById('video');
     let lastScrollTop = 0;
     
     
@@ -17,6 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
     
+
+    if ($(window).width() < 1120) {
+        video.src = "";
+    }
+
     for (let el of tabLinks) {
         el.addEventListener("click", e => {
             e.preventDefault();
@@ -45,8 +51,11 @@ document.addEventListener('DOMContentLoaded', () => {
             addAnimate(".get-in-touch", $(this).scrollTop());
         }
         lastScrollTop = st;
-    
     })
+
+
+    
+
 
 
 });
